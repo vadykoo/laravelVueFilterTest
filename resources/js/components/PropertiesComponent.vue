@@ -55,6 +55,8 @@
                     </b-container>
                     <div class="row">
                         <div class="col-lg-12">
+                            <b-button class="col-2" variant="danger" v-on:click="clearAll">
+                                Reset</b-button>
                             <b-button class="col-4 float-right" variant="success" v-on:click="fetch"><b-spinner small v-if="spinner" type="grow" label="Spinning"></b-spinner>
                                 Search</b-button>
                         </div>
@@ -94,14 +96,14 @@
                         bathrooms: this.bathrooms, storeys: this.storeys, garages: this.garages,
                         minPrice: this.minPrice, maxPrice: this.maxPrice } })
                     .then(response => {
-                        this.properties = response.data
-                            this.spinner = false;
+                        this.properties = response.data;
+                        this.spinner = false;
                     })
                     .catch(error => {});
+            },
+            clearAll() {
+                window.location.reload(); //the easiest way
             }
-        },
-        mounted() {
-            console.log('Component mounted.')
         }
     }
 </script>

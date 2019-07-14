@@ -14,13 +14,13 @@ class PropertyController extends Controller
      */
     public function index(Request $request)
     {
-        $keywords = $request->get('name');
-        $bedrooms = $request->get('bedrooms');
+        $keywords  = $request->get('name');
+        $bedrooms  = $request->get('bedrooms');
         $bathrooms = $request->get('bathrooms');
-        $storeys = $request->get('storeys');
-        $garages = $request->get('garages');
-        $minPrice = $request->get('minPrice');
-        $maxPrice = $request->get('maxPrice');
+        $storeys   = $request->get('storeys');
+        $garages   = $request->get('garages');
+        $minPrice  = $request->get('minPrice');
+        $maxPrice  = $request->get('maxPrice');
 
         if(isset($keywords)) {
             $properties = Property::where('name', 'like', '%' . $keywords . '%')->get();
