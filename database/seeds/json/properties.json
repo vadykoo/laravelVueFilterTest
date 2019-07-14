@@ -1,0 +1,11 @@
+[
+{"id":"1","name":"The Victoria","bedrooms":"4","bathrooms":"2","storeys":"2","garages":"2","price":"374662","created_at":null,"updated_at":null},
+{"id":"2","name":"The Xavier","bedrooms":"4","bathrooms":"2","storeys":"1","garages":"2","price":"513268","created_at":null,"updated_at":null},
+{"id":"3","name":"The Como","bedrooms":"4","bathrooms":"3","storeys":"2","garages":"3","price":"454990","created_at":null,"updated_at":null},
+{"id":"4","name":"The Aspen","bedrooms":"4","bathrooms":"2","storeys":"2","garages":"2","price":"384356","created_at":null,"updated_at":null},
+{"id":"5","name":"The Lucretia","bedrooms":"4","bathrooms":"3","storeys":"2","garages":"2","price":"572002","created_at":null,"updated_at":null},
+{"id":"6","name":"The Toorak","bedrooms":"5","bathrooms":"2","storeys":"1","garages":"2","price":"521951","created_at":null,"updated_at":null},
+{"id":"7","name":"The Skyscape","bedrooms":"3","bathrooms":"2","storeys":"2","garages":"2","price":"263604","created_at":null,"updated_at":null},
+{"id":"8","name":"The Clifton","bedrooms":"3","bathrooms":"2","storeys":"1","garages":"1","price":"386103","created_at":null,"updated_at":null},
+{"id":"9","name":"The Geneva","bedrooms":"4","bathrooms":"3","storeys":"2","garages":"2","price":"390600","created_at":null,"updated_at":null}
+]
